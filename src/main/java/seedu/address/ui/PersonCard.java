@@ -14,9 +14,6 @@ import seedu.address.model.person.Person;
  */
 public class PersonCard extends UiPart<Region> {
 
-    @FXML
-    private Label remark;
-
     private static final String FXML = "PersonListCard.fxml";
 
     /**
@@ -29,6 +26,8 @@ public class PersonCard extends UiPart<Region> {
 
     public final Person person;
 
+    @FXML
+    private Label remark;
     @FXML
     private HBox cardPane;
     @FXML

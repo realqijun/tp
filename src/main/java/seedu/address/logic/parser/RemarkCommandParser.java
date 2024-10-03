@@ -9,6 +9,9 @@ import seedu.address.logic.commands.RemarkCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.person.Remark;
 
+/**
+ * Parses Remark Command.
+ */
 public class RemarkCommandParser implements Parser<RemarkCommand> {
     private static final Prefix PREFIX_REMARK = new Prefix("r/");
 
