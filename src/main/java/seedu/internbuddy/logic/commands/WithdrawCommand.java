@@ -29,6 +29,8 @@ public class WithdrawCommand extends Command {
             + "Example: " + COMMAND_WORD + " c/1 app/1";
 
     public static final String MESSAGE_WITHDRAW_APPLICATION_SUCCESS = "Withdrawn application: %1$s";
+    public static final String MESSAGE_COMPANY_APPLICATIONS_CLOSED = "Company application status has been closed!"
+            + "(There are no active applications to this company)";
 
     private final Index companyIndex;
     private final Index applicationIndex;
@@ -70,7 +72,14 @@ public class WithdrawCommand extends Command {
                 newStatus, applicationList, companyToEdit.getIsFavourite());
 
         model.setCompany(companyToEdit, editedCompany);
-        return new CommandResult(String.format(MESSAGE_WITHDRAW_APPLICATION_SUCCESS, applicationToWithdraw));
+
+        if (applicationList.isEmpty()) {
+            return new CommandResult(String.format(MESSAGE_WITHDRAW_APPLICATION_SUCCESS
+                    + "\n"
+                    + MESSAGE_COMPANY_APPLICATIONS_CLOSED, applicationToWithdraw)); // Displays message to notify user
+        } else {
+            return new CommandResult(String.format(MESSAGE_WITHDRAW_APPLICATION_SUCCESS, applicationToWithdraw));
+        }
     }
 
     public static Status getNewStatus(Company companyToEdit, List<Application> applicationList) {
