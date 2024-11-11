@@ -37,6 +37,8 @@ Refer to the sidebar if you are on the website.
 <!-- * Table of Contents -->
 <page-nav-print />
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Overview
@@ -54,6 +56,8 @@ the contacts of companies that they are potentially applying for or have already
 **InternBuddy** can get your company contacts and internship application management tasks done faster than traditional GUI apps.
 
 [back to top](#internbuddy-user-guide)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -108,6 +112,8 @@ Before continuing, here are some important information you need to know about th
 
 [back to top](#internbuddy-user-guide)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Quick start
@@ -142,6 +148,8 @@ Before continuing, here are some important information you need to know about th
 
 [back to top](#internbuddy-user-guide)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## GUI Overview
@@ -158,6 +166,7 @@ The **GUI** is divided into five main sections:
 4. **Company List**: Displays the current list of companies in a card-like format, making it easy to view and manage.
 5. **Status Bar**: Displays the file path of the loaded data file, alongside our trusty companion, `InternBuddy`, who will be with you throughout your journey.
 
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -202,6 +211,8 @@ to the relevant commands!
 | [**Exit**](#exiting-the-program-exit) | `exit`           |
 
 [back to top](#internbuddy-user-guide)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 ## Features
@@ -269,6 +280,8 @@ not** put any parameters or prefixes that are not recognised by the command.
 
 * `APPLICATION_STATUS` can only take the values `APPLIED`, `OA`, `INTERVIEWED`, `OFFERED`, `ACCEPTED`, `REJECTED`.
 </box>
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -343,6 +356,8 @@ Format: `list`
 [back to features](#features) <br>
 [back to company commands](#company-commands)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 #### Editing a company: `edit`
@@ -383,6 +398,8 @@ Examples:
 [back to command summary](#command-summary) <br>
 [back to features](#features) <br>
 [back to company commands](#company-commands)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -497,6 +514,8 @@ Examples:
 [back to features](#features) <br>
 [back to application commands](#application-commands)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 #### Updating an application for a company: `update`
@@ -522,6 +541,8 @@ check that you have put the correct `APPLICATION_STATUS` to ensure that you corr
 [back to features](#features) <br>
 [back to application commands](#application-commands)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 #### Withdrawing an application for a company: `withdraw`
@@ -545,6 +566,8 @@ The index refers to the index number shown in the displayed company list. The in
 [back to features](#features) <br>
 [back to application commands](#application-commands)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 #### Viewing detailed applications of a company: `view`
@@ -567,6 +590,8 @@ a given company.
 [back to command summary](#command-summary) <br>
 [back to features](#features) <br>
 [back to application commands](#application-commands)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -613,6 +638,8 @@ Format: `exit`
 [back to features](#features) <br>
 [back to miscellaneous](#miscellaneous)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 #### Saving the data
@@ -634,6 +661,8 @@ Furthermore, certain edits can cause InternBuddy to behave in unexpected ways (e
 [back to features](#features) <br>
 [back to miscellaneous](#miscellaneous) <br>
 [back to top](#internbuddy-user-guide) <br>
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -663,6 +692,8 @@ However, parameters with no prefix (eg: `INDEX`) must appear as the first parame
 
 [back to top](#internbuddy-user-guide)
 
+<div style="page-break-after: always;"></div>
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## Known issues
@@ -680,6 +711,8 @@ However, parameters with no prefix (eg: `INDEX`) must appear as the first parame
 10. `InternBuddy` **currently has no limit on the tag length.** However, with the default window size, the tag may overrun the screen if it exceeds 62 characters, causing the favourites star to no longer remain visible. If a tag length longer than 62 characters is required, adjustments to the window size can be made accordingly.
 
 [back to top](#internbuddy-user-guide)
+
+<div style="page-break-after: always;"></div>
 
 --------------------------------------------------------------------------------------------------------------------
 
